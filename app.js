@@ -28,5 +28,5 @@ app.get('/', function (req, res) {
   res.send(message.getWelcomeMessage());
 });
 
-app.listen(PORT);
+app.listen(PORT,'0.0.0.0');
 console.log(message.getPortMessage() + PORT);
