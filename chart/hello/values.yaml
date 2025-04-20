@@ -15,10 +15,10 @@ service:
   externalPort: 80
   internalPort: 8080
 ingress:
-  enabled: false
+  enabled: True
   # Used to create an Ingress record.
   hosts:
-    - chart-example.local
+    - hello.local
   annotations:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
